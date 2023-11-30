@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Leaderboard</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css"> <!-- Include your custom CSS file if needed -->
+   <style>
+      body {
+         font-family: 'Arial', sans-serif;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         min-height: 100vh;
+         background-color: #f0f0f0;
+      }
+
+      .leaderboard {
+         width: 80%;
+         max-width: 600px;
+         background-color: #fff;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         border-radius: 8px;
+         overflow: hidden;
+      }
+
+      .leaderboard-list {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+
+      .participant {
+         display: flex;
+         align-items: center;
+         padding: 10px;
+         border-bottom: 1px solid #ccc;
+      }
+
+      .rank {
+         font-size: 18px;
+         font-weight: bold;
+         margin-right: 10px;
+      }
+
+      .user-details {
+         flex: 1;
+         display: flex;
+         flex-direction: column;
+      }
+
+      .bar {
+         height: 20px;
+         background-color: #3498db;
+         transition: width 0.5s ease;
+      }
+
+      /* Customize bar colors for different rankings */
+      .participant:nth-child(1) .bar {
+         background-color: #e74c3c;
+      }
+
+      .participant:nth-child(2) .bar {
+         background-color: #f39c12;
+      }
+
+      .participant:nth-child(3) .bar {
+         background-color: #2ecc71;
+      }
+   </style>
+</head>
+<body>
+
+   <section class="leaderboard">
+      <h1 class="heading">Leaderboard</h1>
+
+      <ol class="leaderboard-list">
+         <li class="participant">
+            <span class="rank">1.</span>
+            <div class="user-details">
+               <h3>John Deo</h3>
+               <div class="bar" style="width: 80%;"></div>
+            </div>
+         </li>
+         <!-- Add more list items as needed -->
+         <li class="participant">
+            <span class="rank">2.</span>
+            <div class="user-details">
+               <h3>Saaki Naka</h3>
+               <div class="bar" style="width: 60%;"></div>
+            </div>
+         </li>
+         <!-- Add more list items as needed -->
+         <li class="participant">
+            <span class="rank">3.</span>
+            <div class="user-details">
+               <h3>Utk Chap</h3>
+               <div class="bar" style="width: 40%;"></div>
+            </div>
+         </li>
+         <!-- Add more list items as needed -->
+      </ol>
+   </section>
+
+   <!-- Your scripts and additional content here -->
+
+</body>
+</html>

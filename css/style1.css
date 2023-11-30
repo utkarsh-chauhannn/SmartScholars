@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Nova+Square&display=swap');
+
+
+*{
+   background-color: #b5dde6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    height: auto;
+    width: auto;
+    border: 5px solid #d0f6ff;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+     background-color: #64cce3; 
+}
+
+.form h2{
+    font-size: 40px;
+    font-family: 'Nova Square', Happy Monkey;
+    margin: 40px;
+
+}
+
+.box{
+    padding: 15px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+}
+
+#submit{
+    padding: 12px 40px;
+    width: 40%;
+    margin-top: 5px; 
+    background-color:#318ca0;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+   border-radius: 10px;
+   border: none;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color:#1f6a7a;
+}
+
+.form a{
+    margin: 10px;
+    text-decoration: none;
+    color: #1f6a7a;
+}
+.form a:hover{
+    color: #3babc4;
+}
+ 
+.side{
+    display: flex;
+}
+
+
+.side img{
+    width: 400px;
+}
+
+.buttonlogineasy{
+    margin: 20px;
+
+}
+
+#Google{
+    background-color: rgba(27, 165, 196, 0.477);
+    padding: 10px 40px;
+    margin-left: 10px ;
+    margin-right: 30px ;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Facebook{
+    background-color: rgba(27, 165, 196, 0.477);
+    padding: 10px 40px;
+    margin-left: 10px;
+    margin-right: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+

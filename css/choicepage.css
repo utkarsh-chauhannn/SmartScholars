@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Nova+Square&display=swap');
+
+
+
+
+.images{
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 60px ;
+}
+
+.lightbox{
+  display: flex;
+  background-color: rgb(103, 213, 237);
+}
+
+
+.smalllightboxstduent{
+  margin: 30px;
+  background-color: rgb(139, 238, 238) ;
+}
+
+.smalllightboxteacher{
+  margin: 30px;
+  background-color: rgb(150, 247, 247);
+}
+
+#studentchoice{
+  text-align: center;
+  padding: 25px 90px;
+  margin-bottom: 100px; 
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 34px;
+  border-radius: 50px;
+}
+
+#studentchoice:hover{
+  background-color:#2baba0;
+}
+
+#teacherchoice{
+  text-align: center;
+  padding: 25px 90px;
+  margin-bottom: 100px; 
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 34px;
+  border-radius: 50px;
+}
+
+#teacherchoice:hover{
+  background-color:#2baba0;
+}
